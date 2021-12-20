@@ -1,65 +1,33 @@
-===================================  
-  
 Meet Social Media Web Application  
+-
   
-===================================   
-  
---------------TREE----------------  
-  
-.  
-├── /api  
-│   └── user_add_post.php  
-├── config.php  
-├── covid.php  
-├── /css  
-│   └── style.css  
-├── dbcon.php  
-├── friends_list.php  
-├── functions.php  
-├── /images  
-│   ├── logo.png  
-│   ├── post1.jpeg  
-│   └── user.png  
-├── /includes  
-│   ├── displayProfilePosts.snippet.php  
-│   ├── header.php  
-│   └── newpost.snippet.php  
-├── index.php  
-├── /js  
-│   ├── nav.js  
-│   └── new_post.js  
-├── login.php  
-├── logout.php  
-├── messages.php  
-├── profile.php  
-├── settings.php  
-├── signup.php  
-├── /uploads  
-└── validate.php  
+This was my web project that i made in one night. They only allowed languages and no frameworks, so did what had to be done. I am really proud of this, but not really.....u know....
   
 7 directories, 35 files  
-_______________________________________________________________________  
   
-DIRECTORIES:  
+DIRECTORIES
+-
+
 - ./uploads : Uploads has the photos uploaded when posted on one's profile.  
 - ./api : Contains the apis that the program has.  
      └── user_add_post.php : Not exactly an api, the function validate_session gets the session_id for the running session for the user.  
   
 - ./css : Contains all the css files for the project.  
   
-- ./images : Images that are required for the webpage, and not by the user.  
+- ./images: Images that are required for the webpage, and not by the user.  
   
-- ./includes : Snippets and header that are included in the file where needed.  
+- ./includes: Snippets and header that are included in the file where needed.  
      └── displayProfilePosts.snippet.php : Snippet that adds posts on profile of a user.  
      └── newpost.snippet.php : Snippet that adds a form for a new post.  
      └── header.php : The webpage header after the user has successfully logged in.  
   
-- ./js : Contains the JavaScript files for the project.  
+- ./js: Contains the JavaScript files for the project.  
      └── nav.js : Navbar animation.  
      └── new_post.js : Ajax handler for creating new post.  
-_______________________________________________________________________  
   
-FILES:  
+FILES
+-
+
 - config.php : Contains configuration along with database connection information.  
 - covid.php [VIEW] : Did not have time to create this. Just added "Stay home, stay safe".  
 - dbcon.php : Contains a function that creates a connector and returns it.  
